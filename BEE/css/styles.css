@@ -1,0 +1,11 @@
+.world1 {
+	background: linear-gradient(#8ee4ae, #e9eba3);
+	position:absolute;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+body{
+	margin: 0 ;
+	overflow: hidden;
+}
