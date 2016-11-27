@@ -201,7 +201,7 @@ function render() {
 
 function createOrbit() {
     control = new THREE.OrbitControls(camera, renderer.domElement);
-    control.object.position.set(0, 5, 200);
+    control.object.position.set(92.2, 53.68, 284.5);
     control.target.set(0, 0, 0);
     control.maxPolarAngle = Math.PI/2;
     control.update();
@@ -215,11 +215,9 @@ function loop() {
         var dy = Math.sin(dt1);
         group.position.y += dy;
 
-           // (atan(0.2*(x-20))+1.57)*10
 
 
         dt1 += 0.02;
-        console.log(group.position.y);
 
 
         propellerM.rotation.y += 0.1;
