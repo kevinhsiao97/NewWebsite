@@ -29,8 +29,10 @@ function init() {
     render();
     createOrbit();
     loop();
-    window.addEventListener('mousedown',MouseDown);
-    window.addEventListener('mouseup', MouseUp);
+    window.addEventListener('mousedown',MouseDown,false);
+    window.addEventListener('touchstart',MouseDown,false);
+    window.addEventListener('mouseup', MouseUp,false);
+    window.addEventListener('touchend', MouseUp,false);
     window.addEventListener('resize', ResizeWindow, false);
 }
 
