@@ -22606,12 +22606,13 @@
 	        color: '#fff'
 	    },
 	    lowPolyTile: {
-	        fontFamily: 'Amatic SC',
-	        fontStyle: 'normal',
-	        fontWeight: '700',
-	        fontSize: '100px',
-	        lineHeight: '40vw',
-	        letterSpacing: '5px'
+	        position: 'absolute', // very important!
+	        margin: '0 auto',
+	        bottom: '15%',
+	        left: '50%',
+	        transform: 'translate(-50%, 0%)',
+	        maxWidth: '800px',
+	        border: '0 none'
 	    },
 	    ///////////////////////////////////////////////////////////////
 	    web3DBackground: (_web3DBackground = {
@@ -22953,11 +22954,8 @@
 	                            _react2.default.createElement(
 	                                'div',
 	                                { style: styles.lowPolyTile },
-	                                'Lowpoly Helicopter!'
-	                            ),
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement(_RaisedButton2.default, { label: 'DEMO', primary: true, style: { margin: 20 }, href: 'https://iceleaf97.github.io/NewWebsite/LowPolyHelicopter/LowPolyHelicopter.html' })
+	                                _react2.default.createElement(_RaisedButton2.default, { label: 'DEMO', primary: true, style: { margin: 20 }, href: 'https://iceleaf97.github.io/NewWebsite/LowPolyHelicopter/LowPolyHelicopter.html' })
+	                            )
 	                        ),
 	                        _react2.default.createElement('div', { style: { width: '100vw', height: '5vh', backgroundColor: '#000' } })
 	                    ),
@@ -22971,11 +22969,8 @@
 	                            _react2.default.createElement(
 	                                'div',
 	                                { style: styles.lowPolyTile },
-	                                'Lowpoly Helicopter!'
-	                            ),
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement(_RaisedButton2.default, { label: 'DEMO', primary: true, style: { margin: 20 }, href: 'https://iceleaf97.github.io/NewWebsite/LowPolyHelicopter/LowPolyHelicopter.html' })
+	                                _react2.default.createElement(_RaisedButton2.default, { label: 'DEMO', primary: true, style: { margin: 20 }, href: 'https://iceleaf97.github.io/NewWebsite/LowPolyHelicopter/LowPolyHelicopter.html' })
+	                            )
 	                        ),
 	                        _react2.default.createElement('div', { style: { width: '100vw', height: '2.5vh', backgroundColor: '#000' } })
 	                    )
@@ -22990,11 +22985,8 @@
 	                        _react2.default.createElement(
 	                            'div',
 	                            { style: styles.lowPolyTile },
-	                            'Lowpoly Helicopter!'
-	                        ),
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement('br', null),
-	                        _react2.default.createElement(_RaisedButton2.default, { label: 'DEMO', primary: true, style: { margin: 12 }, href: 'https://iceleaf97.github.io/NewWebsite/LowPolyHelicopter/LowPolyHelicopter.html' })
+	                            _react2.default.createElement(_RaisedButton2.default, { label: 'DEMO', primary: true, style: { margin: 12 }, href: 'https://iceleaf97.github.io/NewWebsite/LowPolyHelicopter/LowPolyHelicopter.html' })
+	                        )
 	                    ),
 	                    _react2.default.createElement('div', { style: { width: '100vw', height: '5vh', backgroundColor: '#000' } })
 	                ),
