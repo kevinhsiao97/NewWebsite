@@ -22676,7 +22676,7 @@
 	                null,
 	                _react2.default.createElement(
 	                    _reactParallax.Parallax,
-	                    { strength: 200 },
+	                    { strength: 50 },
 	                    _react2.default.createElement(
 	                        _reactParallax.Background,
 	                        null,
