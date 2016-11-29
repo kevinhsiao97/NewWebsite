@@ -40908,7 +40908,7 @@
 	                {
 	                    iconStyle: styles.mediumIcon,
 	                    style: styles.medium,
-	                    href: 'https://iceleaf97.github.io/website/ar/'
+	                    href: 'https://iceleaf97.github.io/website/ar/index.html'
 	                },
 	                _react2.default.createElement(_visibility2.default, null)
 	            )
