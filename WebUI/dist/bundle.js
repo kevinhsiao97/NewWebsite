@@ -37613,15 +37613,16 @@
 
 	var _Card8 = _interopRequireDefault(_Card7);
 
+	var _Card9 = __webpack_require__(415);
+
+	var _Card10 = _interopRequireDefault(_Card9);
+
 	var _reactResponsive = __webpack_require__(359);
 
 	var _reactResponsive2 = _interopRequireDefault(_reactResponsive);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	/**
-	 * Created by iceleaf on 2016/11/28.
-	 */
 	var styles = {
 	    box: {
 	        position: 'relative',
@@ -37633,7 +37634,10 @@
 	        msTransform: 'translate(-50%, 0)',
 	        WebkitTransform: 'translate(-50%, 0)'
 	    }
-	};
+	}; /**
+	    * Created by iceleaf on 2016/11/28.
+	    */
+
 
 	var Artworks = function Artworks() {
 	    return _react2.default.createElement(
@@ -37649,7 +37653,9 @@
 	        _react2.default.createElement(_Card6.default, null),
 	        _react2.default.createElement('br', null),
 	        _react2.default.createElement('br', null),
-	        _react2.default.createElement(_Card8.default, null)
+	        _react2.default.createElement(_Card8.default, null),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement(_Card10.default, null)
 	    );
 	};
 
@@ -40804,6 +40810,105 @@
 	                    iconStyle: styles.mediumIcon,
 	                    style: styles.medium,
 	                    href: 'https://iceleaf97.github.io/website/vr/'
+	                },
+	                _react2.default.createElement(_visibility2.default, null)
+	            )
+	        )
+	    );
+	};
+
+	exports.default = Card4;
+
+/***/ },
+/* 415 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Card = __webpack_require__(390);
+
+	var _FlatButton = __webpack_require__(407);
+
+	var _FlatButton2 = _interopRequireDefault(_FlatButton);
+
+	var _IconButton = __webpack_require__(395);
+
+	var _IconButton2 = _interopRequireDefault(_IconButton);
+
+	var _home = __webpack_require__(410);
+
+	var _home2 = _interopRequireDefault(_home);
+
+	var _visibility = __webpack_require__(411);
+
+	var _visibility2 = _interopRequireDefault(_visibility);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	/**
+	 * Created by iceleaf on 2016/11/30.
+	 */
+	/**
+	 * Created by iceleaf on 2016/11/28.
+	 */
+	var styles = {
+	    smallIcon: {
+	        width: 36,
+	        height: 36
+	    },
+	    mediumIcon: {
+	        width: 48,
+	        height: 48
+	    },
+	    largeIcon: {
+	        width: 40,
+	        height: 40
+	    },
+	    small: {
+	        width: 72,
+	        height: 72,
+	        padding: 16
+	    },
+	    medium: {
+	        width: 96,
+	        height: 96,
+	        padding: 24
+	    },
+	    large: {
+	        width: 80,
+	        height: 80,
+	        padding: 0
+	    }
+	};
+
+	var Card4 = function Card4() {
+	    return _react2.default.createElement(
+	        _Card.Card,
+	        null,
+	        _react2.default.createElement(
+	            _Card.CardMedia,
+	            {
+	                overlay: _react2.default.createElement(_Card.CardTitle, { title: 'Web VR' })
+	            },
+	            _react2.default.createElement('img', { src: 'images/ar.png' })
+	        ),
+	        _react2.default.createElement(
+	            _Card.CardActions,
+	            null,
+	            _react2.default.createElement(
+	                _IconButton2.default,
+	                {
+	                    iconStyle: styles.mediumIcon,
+	                    style: styles.medium,
+	                    href: 'https://iceleaf97.github.io/website/ar/'
 	                },
 	                _react2.default.createElement(_visibility2.default, null)
 	            )
