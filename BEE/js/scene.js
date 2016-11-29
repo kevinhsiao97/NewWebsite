@@ -49,25 +49,32 @@ function createPlane(){
 }
 
 function addBee(){
-    var mtlLoader = new THREE.MTLLoader();
-    mtlLoader.load( "models/bee.mtl", function( materials ) {
-        materials.preload();
-        var objLoader = new THREE.OBJLoader();
-        objLoader.setMaterials( materials );
-        objLoader.load("models/bee.obj", function ( object ) {
-            object.traverse( function ( child ) {
-                if ( child instanceof THREE.Mesh ) {
-                    child.castShadow = true;
-                    child.receiveShadow = true;
-                    // child.geometry.computeFaceNormals();
-                    // child.geometry.computeVertexNormals();
-                    child.scale.set(1, 1, 1);
-                }
-            });
-
-            scene.add(object);
-        });
+    // var mtlLoader = new THREE.MTLLoader();
+    // mtlLoader.load( "models/bee.mtl", function( materials ) {
+    //     materials.preload();
+    //     var objLoader = new THREE.OBJLoader();
+    //     objLoader.setMaterials( materials );
+    //     objLoader.load("models/bee.obj", function ( object ) {
+    //         object.traverse( function ( child ) {
+    //             if ( child instanceof THREE.Mesh ) {
+    //                 child.castShadow = true;
+    //                 child.receiveShadow = true;
+    //                 // child.geometry.computeFaceNormals();
+    //                 // child.geometry.computeVertexNormals();
+    //                 child.scale.set(1, 1, 1);
+    //             }
+    //         });
+    //
+    //         scene.add(object);
+    //     });
+    // });
+    var jsonLoader = new THREE.JSONLoader();
+    jsonLoader.load('models/bee.json', function(geometry, material){
+        var mtl = new THREE.MeshFaceMaterial(material);
+        var mesh = new THREE.Mesh(geometry, mtl);
+        scene.add(mesh);
     });
+
 }
 
 function createOrbit() {
