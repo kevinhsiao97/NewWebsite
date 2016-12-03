@@ -1,162 +1,57 @@
-/*------------------------------------------------------------*/
-/*helpers*/
-/*------------------------------------------------------------*/
 
+body{
+    /*position: relative;*/
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
 
-
-/*------------------------------------------------------------*/
-/*general*/
-/*------------------------------------------------------------*/
-
-
-
-
-
-/*------------------------------------------------------------*/
-/*image loader*/
-/*------------------------------------------------------------*/
 
 .container {
-/*    min-width: 400px;*/
     position: absolute;
     width: 100%;
     height: 100%;
-
-}
-
-#home {
-    position: absolute;
-    width: 220px;
-
-    top: 40px;
-    left: 40px;
-
-}
-
-#home img {
-    position: absolute;
-    width: auto;
-    height: auto;
-    max-width: 100%;
 
 }
 
 
 .pattern {
     position: absolute;
-    width: 140px;
-    height: 455px;
-    top: 50%;
-    margin-top: -230px;
-
-    background-color: #000000;
-    opacity: 0.2;
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    bottom: 10px;
+    left: 15%;
+    /*background-color: #00f000;*/
+    opacity: 0.3;
+    overflow: hidden;
+    word-spacing: 0;
 }
 
-.pattern img{
-    width: 100%;
-    height:100%;
-    border:3px solid #999;
-
-}
-
-.pattern div {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left:30px;
-}
-
-
-
-#pic1 {
-
-    top: 25px;
-}
-
-#pic2 {
-
-    top: 130px;
-}
-
-#pic3 {
-
-    top: 235px;
-}
-
-#pic4 {
-
-    top: 340px;
-}
-
-
-
-#content {
-    width: 100%;
+.pattern div{
+    width: 20%;
     height: 100%;
     position: absolute;
-    /* Full Width */
 
-    background: #222222;
+    /*background-color: #0b97c4;*/
 }
 
-#logo {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    top: 50%;
-    left: 50%;
-    margin-left: -90px;
-    margin-top: -150px;
-}
-
-#logo img {
-    position: absolute;
-    width: auto;
+.pattern div img{
+    margin: 0px;
     height: auto;
-    max-width: 100%;
-    max-height: 100%;
+    width: 90%;
+    border:2px solid #ffffff;
 }
 
-
-
-.expand {
-    width: 100%;
-    height: 1px;
-    top: 53%;
-    left: 0;
-
-    background: #00d8b4;
-    position: absolute;
-    box-shadow: 0px 0px 5px 3px rgba(0,250,250,0.2);
-    -moz-animation: fullexpand 4s ease-out;
-    -webkit-animation: fullexpand 4s ease-out;
+#pic1{
+    left: 0%;
 }
-
-/* Full Width Animation Bar */
-@-moz-keyframes fullexpand {
-    0%  { width: 0px;
-    }
-
-    100% {
-        width: 100%;
-    }
+#pic2{
+    left: 25%;
 }
-
-@-webkit-keyframes fullexpand {
-    0% {
-        width: 0px;
-    }
-
-    100% {
-        width: 100%;
-    }
+#pic3{
+    left: 50%;
 }
-
-
-
-/*------------------------------------------------------------*/
-/*stats*/
-/*------------------------------------------------------------*/
-
-
+#pic4{
+    left: 75%;
+}
