@@ -1,0 +1,34 @@
+{
+    "normals":[-1,0,0,1,0,-0,-0,0,1,0,0,-1,0,-1,0,0,1,-0],
+    "uvs":[],
+    "name":"Plane.001Geometry",
+    "metadata":{
+        "uvs":0,
+        "type":"Geometry",
+        "generator":"io_three",
+        "vertices":8,
+        "materials":1,
+        "faces":6,
+        "normals":6,
+        "version":3
+    },
+    "materials":[{
+        "DbgIndex":0,
+        "blending":"NormalBlending",
+        "colorEmissive":[0,0,0],
+        "DbgColor":15658734,
+        "depthTest":true,
+        "shading":"phong",
+        "depthWrite":true,
+        "colorSpecular":[0.5,0.5,0.5],
+        "wireframe":false,
+        "colorDiffuse":[0.8,0.8,0.8],
+        "specularCoef":50,
+        "visible":true,
+        "DbgName":"Material.002",
+        "transparent":false,
+        "opacity":1
+    }],
+    "vertices":[101.458,-45.4965,-160.101,101.458,-45.4965,-3.97898,101.458,-145.685,-160.101,101.458,-145.685,-3.97898,102.5,-145.685,-160.101,102.5,-45.4965,-160.101,102.5,-45.4965,-3.97898,102.5,-145.685,-3.97898],
+    "faces":[35,0,2,3,1,0,0,0,0,0,35,5,6,7,4,0,1,1,1,1,35,1,3,7,6,0,2,2,2,2,35,2,0,5,4,0,3,3,3,3,35,3,2,4,7,0,4,4,4,4,35,0,1,6,5,0,5,5,5,5]
+}

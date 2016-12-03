@@ -1,0 +1,145 @@
+body {
+    background-color: #222222;
+}
+
+#logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 53%;
+    left: 50%;
+    margin-left: -90px;
+    margin-top: -150px;
+}
+
+#logo img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#shader {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
+#shader img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    margin-left: -780px;
+    margin-top: -412px;
+
+}
+
+
+
+
+
+#car {
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    top: 80%;
+    left: 0;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+#car img{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top:50%;
+    left:50%;
+    margin-top: -200px;
+    margin-left: -320px;
+}
+
+#room {
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    top: 80%;
+    left: 20%;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+#room img{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top:50%;
+    left:50%;
+    margin-top: -250px;
+    margin-left: -350px;
+
+}
+
+
+#dress {
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    top: 80%;
+    left: 40%;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+#dress img{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top:50%;
+    left:50%;
+    margin-top: -100px;
+    margin-left: -350px;
+}
+
+#anatomy {
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    top: 80%;
+    left: 60%;
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+#anatomy img{
+    position: absolute;
+    width: 800px;
+    height: auto;
+    top:50%;
+    left:50%;
+    margin-top: -270px;
+    margin-left: -450px;
+
+}
+#dust {
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    top: 80%;
+    left: 80%;
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+#dust img{
+    position: absolute;
+    width: 700px;
+    height: auto;
+    top:50%;
+    left:50%;
+    margin-top: -250px;
+    margin-left: -350px;
+
+}

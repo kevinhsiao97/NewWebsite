@@ -1,0 +1,190 @@
+#world {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: -webkit-linear-gradient(#e4e0ba, #f7d9aa);
+	background: linear-gradient(#e4e0ba, #f7d9aa);
+
+}
+
+
+
+#context {
+	position: absolute;
+	font-size: small;
+	font-weight: lighter;
+	font-family: "Century Gothic";
+	color: #ffffff;
+	line-height: 30px;
+	text-align:left;
+	left:50px;
+	bottom: 50px;
+	letter-spacing: 2px;
+
+}
+#context a:link {
+	text-decoration:none;
+	color: #fdff00;
+	font-size: 16px;
+}
+#context a:visited {
+	color: #fdff00;
+}
+
+
+#content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/* Full Width */
+
+	background: #222222;
+
+}
+
+.expand {
+	width: 100%;
+	height: 1px;
+	top: 53%;
+	left: 0;
+
+	background: #00d8b4;
+	position: absolute;
+	box-shadow: 0px 0px 5px 3px rgba(0,250,250,0.2);
+	-moz-animation: fullexpand 10s ease-out;
+	-webkit-animation: fullexpand 10s ease-out;
+}
+
+.direction {
+	position: absolute;
+	width: 240px;
+	height: 240px;
+	right: 30px;
+	bottom: 30px;
+	opacity: 0.3;
+
+}
+
+#forward {
+	position: absolute;
+	width: 80px;
+	height: 60px;
+	left: 50%;
+	margin-left: -40px;
+	overflow: hidden;
+}
+#forward img {
+	position: absolute;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
+#backward {
+	position: absolute;
+	width: 80px;
+	height: 60px;
+	left: 50%;
+	bottom: 0;
+	margin-left: -40px;
+	overflow: hidden;
+}
+#backward img {
+	position: absolute;
+	width: auto;
+	height: auto;
+	margin-top: -70px;
+	max-width: 100%;
+}
+
+#left {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 50%;
+	margin-top: -40px;
+	overflow: hidden;
+}
+#left img {
+	position: absolute;
+	width: auto;
+	height: auto;
+	margin-top: -140px;
+	max-width: 100%;
+}
+
+
+#right {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 50%;
+	margin-top: -40px;
+	right: 0;
+	overflow: hidden;
+}
+#right img {
+	position: absolute;
+	width: auto;
+	height: auto;
+	bottom: 0;
+	max-width: 100%;
+}
+
+/* Full Width Animation Bar */
+@-moz-keyframes fullexpand {
+	0%  { width: 0px;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+@-webkit-keyframes fullexpand {
+	0% {
+		width: 0px;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+
+#logo {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	margin-left: -90px;
+	margin-top: -150px;
+}
+
+#logo img {
+	position: absolute;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+#home {
+	position: absolute;
+	width: 220px;
+
+	top: 40px;
+	left: 40px;
+
+}
+
+#home img {
+	position: absolute;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+
+}

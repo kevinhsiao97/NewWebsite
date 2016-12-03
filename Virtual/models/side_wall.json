@@ -1,0 +1,34 @@
+{
+    "name":"Cube.004Geometry",
+    "uvs":[],
+    "metadata":{
+        "generator":"io_three",
+        "faces":6,
+        "uvs":0,
+        "normals":6,
+        "type":"Geometry",
+        "materials":1,
+        "version":3,
+        "vertices":8
+    },
+    "materials":[{
+        "colorSpecular":[0.5,0.5,0.5],
+        "shading":"phong",
+        "depthTest":true,
+        "blending":"NormalBlending",
+        "DbgName":"Material.005",
+        "colorEmissive":[0,0,0],
+        "DbgIndex":0,
+        "colorDiffuse":[0.64,0.64,0.64],
+        "opacity":1,
+        "wireframe":false,
+        "DbgColor":15658734,
+        "specularCoef":50,
+        "depthWrite":true,
+        "visible":true,
+        "transparent":false
+    }],
+    "vertices":[-93.7288,140.861,-0.206344,-93.7288,140.861,-126.926,-100.079,140.861,-0.206344,-100.079,140.861,-126.926,-93.7288,-139.53,-0.206331,-93.7288,-139.53,-126.926,-100.079,-139.53,-0.206331,-100.079,-139.53,-126.926],
+    "faces":[35,2,0,1,3,0,0,0,0,0,35,3,7,6,2,0,1,1,1,1,35,7,5,4,6,0,2,2,2,2,35,0,4,5,1,0,3,3,3,3,35,0,2,6,4,0,4,4,4,4,35,5,7,3,1,0,5,5,5,5],
+    "normals":[0,1,-0,-1,0,-0,0,-1,-0,1,-0,-0,0,0,1,0,-0,-1]
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Human Anatomy</title>
+    <link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
+    <link rel="stylesheet"  href="css/styles_human.css" />
+    <link rel="stylesheet"  href="css/slide.css" />
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/Human_Anatomy.js"></script>
+    <script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+
+
+</head>
+<body>
+
+<div class="world" id="world"></div>
+<div id="modelFrom">
+    <div id="topic">HUMAN ANATOMY </div>
+    <div id="statement">
+        Explore the human body with 3D experience. The three-dimensional scene was implemented by 3D Max, Blender and WebGL.
+    </div>
+</div>
+
+<div id="context">
+    The Human Body Models<br> downloaded from<br>
+    <a href="http://www.moxingjia.com/html/custom/19043.html">moxingjia.com</a>
+</div>
+
+<div id="home">
+    <a href="http://iceleaf97.wixsite.com/web3d" ><img src="img/LOGO_sb.png" border="0"></a>
+</div>
+
+<div id="vector">
+    <div id="human"><img src="img/human.png"> </div>
+    <div id="skeleton"><img src="img/human.png"></div>
+<div id="handle">
+    <input type="range" id="slide" min="1" max="100" value="100" step="1" oninput="showVal(this.value)" onchange="showVal(this.value)">
+</div>
+</div>
+
+<div id="cover">
+    <div id="progressbar"></div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

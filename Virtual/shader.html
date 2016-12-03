@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Title</title>
+
+   <link rel="stylesheet" type="text/css" media="all" href="css/style_shader.css" />
+    <script src="js/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+<div class="container" id="container"> </div>
+
+<div id="home">
+    <a href="index.html"><img src="img/LOGO_s.png"></a>
+</div>
+
+<div class="pattern">
+
+      <div id="pic1"><img src="textures/P2dwu_b.png"></div>
+      <div id="pic2"><img src="textures/cloth2_b.png"></div>
+      <div id="pic3"><img src="textures/stone_b.jpg"></div>
+      <div id="pic4"><img src="textures/Spec%20Mask_b.png"></div>
+
+
+</div>
+
+
+<div id="content">
+    <div id="logo">
+        <img src="img/LOGO.png">
+    </div>
+
+    <span class="expand"></span>
+</div>
+
+<script>
+    $(document).ready(
+            function()
+            {
+                /**
+                 *1.delay函数是jquery 1.4.2新增的函数
+                 *2.hide函数里必须放一个0,不然延时不起作用
+                 */
+                $('#content').delay(4000).fadeOut(1000);
+            }
+    );
+
+</script>
+
+
+
+
+
+
+
+<!-- make sure this is just below the closing </body> tag -->
+<!-- for some reason the latest three.js doesn't work, so we use the one from the example file-->
+<script src="js/three.min.js"></script>
+<script src="js/OrbitControls.js"></script>
+
+
+<script src="js/shaders/DisplacementShader.js"></script>
+
+
+
+<!-- load onepix scripts-->
+
+
+<script src="js/shaders/OnepixMaterials.js"></script>
+
+<!--make sure this is loaded last-->
+<script src="js/shaders/shader.js"></script>
+
+</body>
+</html>

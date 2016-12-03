@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Interior</title>
+    <link rel="stylesheet"  href="css/styles_room.css" />
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/room.min.js"></script>
+
+</head>
+<body>
+<div class="world" id="world"></div>
+
+
+<div id="context">
+    3D Models<br> downloaded from<br>
+    <a href="http://dimensiva.com/">dimensiva.com</a>
+</div>
+
+
+
+
+<div>
+    <div id="home">
+        <a href="index.html" ><img src="img/LOGO_s.png" border="0"></a>
+    </div>
+
+    <div class="direction">
+        <div id="forward"><img src="img/arrow.png" border="0"></div>
+        <div id="backward"><img src="img/arrow.png" border="0"></div>
+        <div id="left"><img src="img/arrow.png" border="0"></div>
+        <div id="right"><img src="img/arrow.png" border="0"></div>
+    </div>
+
+</div>
+
+
+
+
+<div id="content">
+    <div id="logo">
+        <img src="img/LOGO.png" border="0">
+    </div>
+
+    <span class="expand"></span>
+</div>
+
+<script>
+
+    $(document).ready(
+            function()
+            {
+                /**
+                 *1.delay函数是jquery 1.4.2新增的函数
+                 *2.hide函数里必须放一个0,不然延时不起作用
+                 */
+                $('#content').delay(10000).fadeOut(1000);
+            }
+    );
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
+
+

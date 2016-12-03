@@ -1,0 +1,168 @@
+#vector {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: 60px;
+    right: 50px;
+  /*  background-color: #eeeeee;*/
+}
+#human {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    overflow: hidden;
+}
+#human img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    opacity: 0.2;
+}
+#skeleton {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    overflow: hidden;
+    right: 0;
+}
+#skeleton img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    margin-left: -50px;
+    opacity: 0.2;
+}
+
+#handle {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 50%;
+    margin-top: -10px;
+    /*   -webkit-transform: rotate(-90deg);
+       -moz-transform: rotate(-90deg);  /* Especially for FireFox */
+    /*   -ms-transform: rotate(-90deg);*/
+
+    opacity: 0.5;
+}
+
+input[type=range] {
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+
+    width: 100%; /* Specific width is required for Firefox. */
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent; /* Hides the slider so custom styles can be added */
+    border-color: transparent;
+    color: transparent;
+}
+
+/*                  */
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #999999;
+    height: 25px;
+    width: 25px;
+    top: 5px;
+    border-radius: 10px;
+    background: #cccccc;
+    cursor: pointer;
+    margin-top: -8px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+
+    border: 1px solid #999999;
+    height: 25px;
+    width: 25px;
+    top: 50px;
+    border-radius: 10px;
+    background: #cccccc;
+    cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+
+    border: 1px solid #999999;
+    height: 25px;
+    width: 25px;
+    top: 5px;
+    border-radius: 10px;
+    background: #cccccc;
+    cursor: pointer;
+}
+
+/*      */
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+
+    background: #eeeeee;
+    border-radius: 1.3px;
+    border: 0.2px solid #dddddd;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #eeeeee;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+
+    background: #eeeeee;
+    border-radius: 1.3px;
+    border: 0.2px solid #dddddd;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: #eeeeee;
+    border: 0.2px solid #dddddd;
+    border-radius: 2.6px;
+
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: #eeeeee;
+}
+input[type=range]::-ms-fill-upper {
+    background: #eeeeee;
+    border: 0.2px solid #dddddd;
+    border-radius: 2.6px;
+
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: #eeeeee;
+}
+
+
+
